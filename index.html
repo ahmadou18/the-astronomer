@@ -6,12 +6,14 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>The astronomer</title>
 </head>
     <body>
      <header class="head">
          <h1>Chronicle</h1>
-         <nav>
+         <nav class="navi">
+             <i onclick="openMenu()" class=" fa fa-bars fa-2x nav-open"></i>
              <ul class="menu">
                  <li><a href="#">home</a></li>
                  <li><a href="#">articles</a></li>
@@ -20,6 +22,14 @@
              </ul>
          </nav>
      </header>
+
+     <div id="side-menu" class="side-nav">
+         <i onclick="closeMenu()" class=" fa fa-2x fa-close nav-close"></i>
+         <a href="#">home</a>
+         <a href="#">articles</a>
+         <a href="#">categories</a>
+         <a href="#">contact</a>
+     </div>
     <main class="main">
         <section class="contain">
             <span>science</span>
@@ -38,7 +48,7 @@
         </div>
 
         <div class="txt-two">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            <p class="showtext1">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Accusamus deserunt dolor dolore ea,
                 eius ex explicabo id mollitia nisi odio quia unde.
                 Consequatur dolore impedit ipsam minima modi omnis praesentium tenetur,
@@ -46,7 +56,7 @@
                 id laudantium minima nesciunt nihil,
                 non quaerat repellendus sint sit veniam voluptas.
             </p>
-            <p>
+            <p class="showtext2">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Accusamus deserunt dolor dolore ea,
                 eius ex explicabo id mollitia nisi odio quia unde.
