@@ -47,6 +47,8 @@ html, body{
 
 }
 
+
+
 @media screen and (max-width: 1000px){
     .menu {
         display: none !important;
@@ -180,6 +182,7 @@ html, body{
      font-weight: lighter;
      margin:0;
      color: white;
+    text-align: center;
 }
 
 @media screen and (max-width: 540px){
@@ -236,22 +239,16 @@ html, body{
 
  .article{
      width: 100%;
-     height: 60vh;
      display: flex;
      justify-content: center;
      align-items: center;
      flex-direction: column;
  }
 
- @media screen and (max-width: 1024px){
-     .article{
-         height: 70vh;
-     }
- }
+
 
 @media screen and (max-width: 1134px){
     .article{
-        height: 100vh;
         justify-content: space-around;
     }
 }
@@ -295,7 +292,7 @@ text
 
 @media screen and (max-width: 470px){
     .txt-one p {
-        font-size: 20px;
+        font-size: 1.3em;
         margin: 0;
     }
 }
@@ -316,24 +313,12 @@ text
     }
 }
 
-@media screen and (max-width: 470px){
-    .txt-two{
-        height: 70vh;
-    }
-}
-
 .txt-two p{
     font-family: 'Roboto', serif;
     margin: 3px;
     line-height: 27px;
     font-weight: lighter;
     color: #BCBCBC;
-}
-
-@media screen and (max-width: 470px){
-    .txt-two p {
-        font-size: 13px;
-    }
 }
 
 .showtext1{
@@ -371,3 +356,22 @@ antelope canyon
     justify-content: center;
     align-items: center;
 }
+
+/*gallery*/
+
+.gallery .showtext3{
+    text-align: center;
+}
+
+.gallery .showtext3 h2{
+    font-family: 'Lora', serif;
+    font-size:2.5em;
+    font-weight: lighter;
+}
+
+.gallery .showtext3 p{
+    font-family: 'Roboto', serif;
+    color: #434343;
+}
+
+
